@@ -26,10 +26,10 @@ namespace ConsoleApplication1
                 Console.WriteLine("Total Contacts in the System=" + enColl.Entities.Count);
                 Console.ReadLine();
 
-                QueryExpression qe2 = new QueryExpression("contacting");
-                EntityCollection enColl3 = service.RetrieveMultiple(qe);
-                Console.WriteLine("Total Contacts in the System=" + enColl.Entities.Count);
-                Console.ReadLine();
+                //QueryExpression qe2 = new QueryExpression("contacting");
+                //EntityCollection enColl3 = service.RetrieveMultiple(qe);
+                //Console.WriteLine("Total Contacts in the System=" + enColl.Entities.Count);
+                //Console.ReadLine();
 
                 //code your logic here
             }
